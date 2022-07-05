@@ -1,0 +1,11 @@
+.vscode/
+.idea/
+enviro.log
+enviro.error.log
+.DS_Store
+.gitignore.swp
+go-scaffold.error.log
+go-scaffold.log
+node_modules/
+yarn.lock
+apiserver
