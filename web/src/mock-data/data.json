@@ -1,0 +1,180 @@
+{
+  "stocks":
+    [
+      {
+        "key": "1",
+        "code": "sh.601318",
+        "codeName": "中国平安",
+        "industry": "非银金融",
+        "kind": "PB",
+        "underestimate": 1.00,
+        "current": 1.05,
+        "percentage": 10,
+        "tags": [
+          "正常",
+          "第二类"
+        ]
+      },
+      {
+        "key": "2",
+        "code": "sh.600036",
+        "codeName": "招商银行",
+        "industry": "银行",
+        "kind": "PB",
+        "underestimate": 1.00,
+        "current": 1.05,
+        "percentage": 20,
+        "tags": [
+          "低估"
+        ]
+      },
+      {
+        "key": "3",
+        "code": "sz.300014",
+        "codeName": "亿纬锂能",
+        "industry": "新能源",
+        "kind": "TTM",
+        "underestimate": 40,
+        "current": 51.2,
+        "percentage": 30,
+        "tags": [
+          "高估"
+        ]
+      },
+      {
+        "key": "4",
+        "code": "sh.601318",
+        "codeName": "贵州茅台",
+        "industry": "酿酒",
+        "kind": "TTM",
+        "underestimate": 1.00,
+        "current": 1.05,
+        "percentage": 10,
+        "tags": [
+          "正常",
+          "第一类"
+        ]
+      },
+      {
+        "key": "5",
+        "code": "sz.300014",
+        "codeName": "万华化学",
+        "industry": "化工",
+        "kind": "TTM",
+        "underestimate": 40,
+        "current": 51.2,
+        "percentage": 30,
+        "tags": [
+          "正常",
+          "鹅4"
+        ]
+      }
+    ],
+  "buys":{
+    "stock":{
+        "key": "1",
+        "date": "2023-03-11",
+        "code": "sh.601318",
+        "codeName": "中国平安",
+        "industry": "非银金融",
+        "kind": "PB",
+        "underestimate": 1.00,
+        "current": 1.05,
+        "percentage": 10,
+        "tags": [
+          "正常",
+          "第二类"
+        ]
+      },
+    "methods":[
+      {
+        "name":"金字塔加仓法",
+        "deals":[
+          {
+            "batch": "第一次",
+            "buyPercentage": 20,
+            "buyNumber": 200,
+            "buyPrice": 10,
+            "buyTotal": 2000,
+            "accumulativeNumber": 200,
+            "accumulativeTotal": 2000,
+            "currentTotal": 2000,
+            "accumulativeDropPercentage": 0,
+            "lossPercentage": 0,
+            "lossTotal": 0
+          },
+          {
+            "batch": "第二次",
+            "buyPercentage": 30,
+            "buyNumber": 300,
+            "buyPrice": 9,
+            "buyTotal": 2700,
+            "accumulativeNumber": 500,
+            "accumulativeTotal": 4700,
+            "currentTotal": 4500,
+            "accumulativeDropPercentage": 10,
+            "lossPercentage": 4.44,
+            "lossTotal": 200
+          },
+          {
+            "batch": "第三次",
+            "buyPercentage": 50,
+            "buyNumber": 500,
+            "buyPrice": 8,
+            "buyTotal": 4000,
+            "accumulativeNumber": 1000,
+            "accumulativeTotal": 8700,
+            "currentTotal": 8000,
+            "accumulativeDropPercentage": 20,
+            "lossPercentage": 8.75,
+            "lossTotal": 700
+          },
+          {
+            "batch": "特别加仓",
+            "buyPercentage": 40,
+            "buyNumber": 1000,
+            "buyPrice": 6,
+            "buyTotal": 6000,
+            "accumulativeNumber": 2000,
+            "accumulativeTotal": 14700,
+            "currentTotal": 12000,
+            "accumulativeDropPercentage": 40,
+            "lossPercentage": 22.5,
+            "lossTotal": 2700
+          }
+        ]
+      },
+      {
+        "name":"3+4+3加仓法",
+        "deals":[
+          {
+            "batch": "第一次",
+            "buyPercentage": 20,
+            "buyNumber": 200,
+            "buyPrice": 10,
+            "buyTotal": 2000,
+            "accumulativeNumber": 200,
+            "accumulativeTotal": 2000,
+            "currentTotal": 2000,
+            "accumulativeDropPercentage": 0,
+            "lossPercentage": 0,
+            "lossTotal": 0
+          },
+          {
+            "batch": "第二次",
+            "buyPercentage": 30,
+            "buyNumber": 300,
+            "buyPrice": 9,
+            "buyTotal": 2700,
+            "accumulativeNumber": 500,
+            "accumulativeTotal": 4700,
+            "currentTotal": 4500,
+            "accumulativeDropPercentage": 10,
+            "lossPercentage": 4.44,
+            "lossTotal": 200
+          }
+        ]
+      }
+    ]
+  }
+}
